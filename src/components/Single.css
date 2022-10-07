@@ -1,0 +1,60 @@
+h1, span, h6{
+    text-transform: capitalize;
+    font-weight:bolder;
+    font-family: inherit;
+    background-color: transparent;
+    color: rgb(238, 183, 64);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  h2{
+    background-color: aqua;
+    font-weight:bolder;
+    color: black;
+  }
+
+  h5,h4{
+    color: rgba(255, 17, 0,0.7) !important;  
+    font-weight:600;
+    letter-spacing: 1px;
+    vertical-align: baseline;
+    text-transform: capitalize;
+    font-weight:bolder;
+  }
+  h6,h4{
+    color: rgb(255, 17, 0) !important;
+    font-weight:600;
+  }
+  #move{
+    border-radius: 20%;
+    box-shadow: 3px 6px green;
+  }
+  #move:hover{
+    border-radius: 20%;
+    transform: scale(1.5);
+    font-weight:bolder;
+    color: rgb(255, 17,0) !important;
+  }
+.singleImage{
+    background-color: rgb(241, 97, 97);
+    border-radius:25%;
+    border: 2px solid gray;
+    padding: 10px;
+   
+  }
+
+  .home{
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 10%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-size-adjust: 10px;
+    width: 20rem;
+    height: 4rem;
+  }
+  .home:hover{
+    background-color: #fff;
+    color: blue;
+    transform: scale(1.1);
+    font-weight:bolder;
+    background-color: rgb(255, 17,0) ;
+  }
